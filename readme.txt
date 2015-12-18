@@ -1,0 +1,6 @@
+Put profile.ps1 under "C:\Users\fhqtmso\Documents\WindowsPowerShell"
+Add following to "C:/Users/fhqtmso/.gitconfig" （change the path in cmd to your path for devenv.exe)
+	[difftool "vs2013"]
+		cmd = \"D:/Program Files (x86)/Microsoft Visual Studio 12.0/Common7/IDE/devenv.exe\" '//diff' \"$LOCAL\" \"$REMOTE\"
+	[diff]
+		tool = vs2013
