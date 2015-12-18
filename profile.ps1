@@ -8,3 +8,5 @@
 . (Resolve-Path "$env:LOCALAPPDATA\GitHub\shell.ps1")
 . $env:github_posh_git\profile.example.ps1
 $env:Path += ";E:\Onedrive\WEIPAN\Sublime Text Build 3083 x64"
+Remove-Item Alias:cd
+function cd { if ($args[0] -eq '-') { $pwd=$OLDPWD; } else { $pwd=$args[0]; } $tmp=pwd; if ($pwd) { Set-Location $pwd; } Set-Variable -Name OLDPWD -Value $tmp -Scope global; }
