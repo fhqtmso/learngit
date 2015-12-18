@@ -1,0 +1,7 @@
+[PowerShell]
+	<!IMPORTANT!> Powershell pipes objects instead of text in bash
+	The powershell version of 'xargs' usage in bash 
+		"cat refs/heads/master | xargs git cat-file -p" 
+		is
+		"cat .\refs\heads\master | %{git cat-file -p $_}" 
+		$_ stands for the piped variable
