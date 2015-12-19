@@ -15,5 +15,5 @@
 [Git Powershell]
 	$git log --graph --pretty=oneline --abbrev-commit
 		Show commit log graph of current history
-	$git branch --set-upstream branch-name origin/branch-name
-		establish tracking between local and remote branch
+	$git branch -u <upstream> [<branchname>]
+		Set up <branchname>'s tracking information so <upstream> is considered <branchname>'s upstream branch. If no <branchname> is specified, then it defaults to the current branch.
