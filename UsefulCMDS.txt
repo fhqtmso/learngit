@@ -15,3 +15,5 @@
 [Git Powershell]
 	$git log --graph --pretty=oneline --abbrev-commit
 		Show commit log graph of current history
+	$git branch --set-upstream branch-name origin/branch-name
+		establish tracking between local and remote branch
