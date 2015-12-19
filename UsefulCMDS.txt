@@ -18,4 +18,5 @@
 	$git branch -u <upstream> [<branchname>]
 		Set up <branchname>'s tracking information so <upstream> is considered <branchname>'s upstream branch. If no <branchname> is specified, then it defaults to the current branch. <upstream> means origin/<branchname>
 	The color of branch name
-		If the branch name is BLUE, it means the branch is up-to-date with '<upstream>' and nothing on stage
+		If the branch name is BLUE, it means the branch is up-to-date with '<upstream>'
+		If the branch name is GREEN, it means the branch is not up-to-date with '<upstream>'
