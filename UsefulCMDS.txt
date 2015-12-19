@@ -12,3 +12,6 @@
 		PS C:\> invoke-item C:\finances.doc
 		Open multiple Excel spreadsheets at once by using a wildcard:
 		PS C:\> invoke-item "F:\My Documents\*.xls"
+[Git Powershell]
+	$git log --graph --pretty=oneline --abbrev-commit
+		Show commit log graph of current history
