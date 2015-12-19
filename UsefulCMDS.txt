@@ -5,3 +5,10 @@
 		is
 		"cat .\refs\heads\master | %{git cat-file -p $_}" 
 		$_ stands for the piped variable
+	"Invoke-Item" or "ii" 
+		Invoke the (provider-specific) default action on an item (like a START command or double click.) This will force the default action to be run on the item. For example a .PDF file will open in whatever program is associated with PDF files.
+		Examples:
+		Opens a file in Microsoft Word:
+		PS C:\> invoke-item C:\finances.doc
+		Open multiple Excel spreadsheets at once by using a wildcard:
+		PS C:\> invoke-item "F:\My Documents\*.xls"
