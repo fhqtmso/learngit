@@ -16,4 +16,6 @@
 	$git log --graph --pretty=oneline --abbrev-commit
 		Show commit log graph of current history
 	$git branch -u <upstream> [<branchname>]
-		Set up <branchname>'s tracking information so <upstream> is considered <branchname>'s upstream branch. If no <branchname> is specified, then it defaults to the current branch.
+		Set up <branchname>'s tracking information so <upstream> is considered <branchname>'s upstream branch. If no <branchname> is specified, then it defaults to the current branch. <upstream> means origin/<branchname>
+	The color of branch name
+		If the branch name is BLUE, it means the branch is up-to-date with '<upstream>' and nothing on stage
