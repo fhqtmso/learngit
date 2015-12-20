@@ -21,3 +21,5 @@
 		If the branch name is BLUE, it means the branch is up-to-date with '<upstream>'
 		If the branch name is GREEN, it means the branch has commit ahead of '<upstream>'
 		If the branch name is YELLOW, it means the branch is diverged from '<upstream>'
+	$git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+		Enable alias "git lg" to show a more readable git log

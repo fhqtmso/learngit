@@ -4,3 +4,10 @@ Add following to "C:/Users/fhqtmso/.gitconfig" （change the path in cmd to your
 		cmd = \"D:/Program Files (x86)/Microsoft Visual Studio 12.0/Common7/IDE/devenv.exe\" '//diff' \"$LOCAL\" \"$REMOTE\"
 	[diff]
 		tool = vs2013
+	[alias]
+		lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+		st = status
+		co = checkout
+		ci = commit
+		br = branch
+		last = log -1
