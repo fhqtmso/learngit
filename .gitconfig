@@ -7,8 +7,22 @@
 [user]
 	email = fhqtmso@gmail.com
 [core]
-	editor = 'E:/Onedrive/WEIPAN/Sublime Text Build 3083 x64/subl.exe' -w
+	editor = 'E:/OneDrive/WEIPAN/Sublime Text Build 3083 x64/subl.exe' -w
 [difftool "vs2013"]
-	cmd = \"D:/Program Files (x86)/Microsoft Visual Studio 12.0/Common7/IDE/devenv.exe\" '//diff' \"$LOCAL\" \"$REMOTE\"
+	cmd = \"G:/Program Files/Common7/IDE/devenv.exe\" '//diff' \"$LOCAL\" \"$REMOTE\"
+[difftool "bc4"]
+	cmd = \"c:/program files/beyond compare 4/BComp.exe\" \"$LOCAL\" \"$REMOTE\"
+[mergetool "bc4"]
+	cmd = \"c:/program files/beyond compare 4/BComp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+	trustexitcode = true
 [diff]
-	tool = vs2013
+	tool = bc4
+[merge]
+	tool = bc4
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	last = log -1
