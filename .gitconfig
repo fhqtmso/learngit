@@ -25,4 +25,5 @@
 	co = checkout
 	ci = commit
 	br = branch
+	unstage = reset HEAD
 	last = log -1
