@@ -14,4 +14,5 @@ function cd { if ($args[0] -eq '-') { $pwd=$OLDPWD; } else { $pwd=$args[0]; } $t
 $layout = "E:\Onedrive\WEIPAN\Ledit-Layouts\"
 $snippet = "E:\Onedrive\WEIPAN\Sublime Text Build 3083 x64\Data\Packages\User\ledit-snippets"
 $LeditInclude = "D:\Program Files (x86)\Tanner EDA\L-Edit 11.1\upi\Interpreted_Include/"
-$fdtd = "E:\Documents\DataProcessPackage\FDTD solution";
+$fdtd = "E:\Documents\DataProcessPackage\FDTD solution"
+$git = "E:\OneDrive\Git\"
