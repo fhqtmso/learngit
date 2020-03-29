@@ -11,3 +11,12 @@ Add following to "C:/Users/fhqtmso/.gitconfig" （change the path in cmd to your
 		ci = commit
 		br = branch
 		last = log -1
+Other difftools
+	[difftool "bc4"]
+		path = \"C:\Program Files\Beyond Compare 4/BCompare.exe\"
+	[diff]
+		tool = bc4
+	[mergetool "bc4"]
+		path = \"C:\Program Files\Beyond Compare 4/BCompare.exe\"
+	[merge]
+		tool = bc4
