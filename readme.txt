@@ -1,3 +1,8 @@
+You Can use following terminals for git
+1. github desktop
+2. powershell (recommanded)
+3. git bash (git for windows)
+
 # Setup some variables in powershell
 1. Put profile.ps1 under "C:\Users\fhqtmso\Documents\WindowsPowerShell"
 
